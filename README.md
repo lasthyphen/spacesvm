@@ -119,7 +119,7 @@ The easiest way to try out SpacesVM is to visit the demo website
 ### spaces-cli
 #### Install
 ```bash
-git clone https://github.com/ava-labs/spacesvm.git;
+git clone https://github.com/lasthyphen/spacesvm.git;
 cd spacesvm;
 go install -v ./cmd/spaces-cli;
 ```
@@ -167,7 +167,7 @@ spaces-cli resolve-file spaceslover/6fe5a52f52b34fb1e07ba90bad47811c645176d0d49e
 spaces-cli delete-file spaceslover/6fe5a52f52b34fb1e07ba90bad47811c645176d0d49ef0c7a7b4b22013f676c8
 ```
 
-### [Golang SDK](https://github.com/ava-labs/spacesvm/blob/master/client/client.go)
+### [Golang SDK](https://github.com/lasthyphen/spacesvm/blob/master/client/client.go)
 ```golang
 // Client defines spacesvm client operations.
 type Client interface {
@@ -512,7 +512,7 @@ _You can find the genesis used for the Spaces Demo in `networks/42/*`._
 
 #### Download and Build SpacesVM
 ```bash
-git clone https://github.com/ava-labs/spacesvm.git;
+git clone https://github.com/lasthyphen/spacesvm.git;
 cd spacesvm;
 ./scripts/build.sh
 ```
@@ -619,11 +619,11 @@ _See [`tests/e2e`](tests/e2e) to see how it's set up and how its client requests
 
 ```bash
 # to startup a local cluster (good for development)
-cd ${HOME}/go/src/github.com/ava-labs/spacesvm
+cd ${HOME}/go/src/github.com/lasthyphen/spacesvm
 ./scripts/run.sh 1.7.11
 
 # to run full e2e tests and shut down cluster afterwards
-cd ${HOME}/go/src/github.com/ava-labs/spacesvm
+cd ${HOME}/go/src/github.com/lasthyphen/spacesvm
 E2E=true ./scripts/run.sh 1.7.11
 ```
 

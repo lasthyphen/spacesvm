@@ -3,13 +3,13 @@ module github.com/lasthyphen/spacesvm
 go 1.18
 
 require (
-	github.com/lasthyphen/dijets-network-runner v1.3.6
-	github.com/lasthyphen/dijetsnode v1.9.8
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/fatih/color v1.13.0
 	github.com/golang/mock v1.6.0
 	github.com/gorilla/rpc v1.2.0
 	github.com/inconshreveable/log15 v0.0.0-20201112154412-8562bdadbbac
+	github.com/lasthyphen/dijets-network-runner v1.3.6
+	github.com/lasthyphen/dijetsnode v1.9.8
 	github.com/onsi/ginkgo/v2 v2.7.0
 	github.com/onsi/gomega v1.25.0
 	github.com/spf13/cobra v1.6.1
@@ -18,7 +18,6 @@ require (
 )
 
 require (
-	github.com/lasthyphen/utilitychain v0.11.7-rc.0 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/VictoriaMetrics/fastcache v1.10.0 // indirect
@@ -63,6 +62,7 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/jackpal/gateway v1.0.6 // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
+	github.com/lasthyphen/utilitychain v0.11.7-rc.0 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
